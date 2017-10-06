@@ -15,7 +15,7 @@ var onRun = function(context) {
   var doc = context.document;
   var selectedLayers = context.selection;
   var selectedCount = selectedLayers.count();
-	var fileTypes = [NSArray arrayWithObjects:@'scss',@'less',@'css',nil];
+	var fileTypes = ["scss"];
 
 	var panel = [NSOpenPanel openPanel];
   [panel setCanChooseDirectories:true];
